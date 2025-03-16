@@ -1,0 +1,112 @@
+[
+  {
+    "name": {
+      "common": "Afghanistan",
+      "official": "Islamic Republic of Afghanistan"
+    },
+    "capital": ["Kabul"],
+    "region": "Asia",
+    "population": 38928346,
+    "area": 652230,
+    "flag": "https://flagcdn.com/w320/af.png"
+  },
+  {
+    "name": {
+      "common": "Albania",
+      "official": "Republic of Albania"
+    },
+    "capital": ["Tirana"],
+    "region": "Europe",
+    "population": 2877797,
+    "area": 28748,
+    "flag": "https://flagcdn.com/w320/al.png"
+  },
+  {
+    "name": {
+      "common": "Algeria",
+      "official": "People's Democratic Republic of Algeria"
+    },
+    "capital": ["Algiers"],
+    "region": "Africa",
+    "population": 43851044,
+    "area": 2381741,
+    "flag": "https://flagcdn.com/w320/dz.png"
+  },
+  {
+    "name": {
+      "common": "Andorra",
+      "official": "Principality of Andorra"
+    },
+    "capital": ["Andorra la Vella"],
+    "region": "Europe",
+    "population": 77265,
+    "area": 468,
+    "flag": "https://flagcdn.com/w320/ad.png"
+  },
+  {
+    "name": {
+      "common": "Angola",
+      "official": "Republic of Angola"
+    },
+    "capital": ["Luanda"],
+    "region": "Africa",
+    "population": 32866272,
+    "area": 1246700,
+    "flag": "https://flagcdn.com/w320/ao.png"
+  },
+  {
+    "name": {
+      "common": "Argentina",
+      "official": "Argentine Republic"
+    },
+    "capital": ["Buenos Aires"],
+    "region": "Americas",
+    "population": 45195777,
+    "area": 2780400,
+    "flag": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "name": {
+      "common": "Armenia",
+      "official": "Republic of Armenia"
+    },
+    "capital": ["Yerevan"],
+    "region": "Asia",
+    "population": 2963243,
+    "area": 29743,
+    "flag": "https://flagcdn.com/w320/am.png"
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "population": 25499884,
+    "area": 7692024,
+    "flag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "name": {
+      "common": "Austria",
+      "official": "Republic of Austria"
+    },
+    "capital": ["Vienna"],
+    "region": "Europe",
+    "population": 9006398,
+    "area": 83871,
+    "flag": "https://flagcdn.com/w320/at.png"
+  },
+  {
+    "name": {
+      "common": "Azerbaijan",
+      "official": "Republic of Azerbaijan"
+    },
+    "capital": ["Baku"],
+    "region": "Asia",
+    "population": 10139177,
+    "area": 86600,
+    "flag": "https://flagcdn.com/w320/az.png"
+  }
+]
