@@ -13,7 +13,10 @@ const saveCartToLS = (cart) => {
 
 const addToLS = (id) => {
   const cart = getStoredCart();
-  cart.push(id);
+  if (!cart.includes(id)) {
+    cart.push(id);
+  }
+
   // Save to local storage
   saveCartToLS(cart);
 };

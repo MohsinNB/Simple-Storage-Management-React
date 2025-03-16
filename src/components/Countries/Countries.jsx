@@ -3,6 +3,7 @@ import { useState } from "react";
 import Country from "../Country/Country";
 import "./Countries.css";
 import { addToLS, getStoredCart } from "../localStorage";
+import Cart from "../Cart/Cart";
 
 const Countries = () => {
   const [countries, setCountries] = useState([]);
@@ -24,7 +25,10 @@ const Countries = () => {
         const cartedCountry = countries.find(
           (country) => country.name.common === id
         );
-        cartCountries.push(cartedCountry);
+        // cartCountries.push(cartedCountry);
+        if (!cartCountries.includes(cartedCountry)) {
+          cartCountries.push(cartedCountry);
+        }
       }
       setCart(cartCountries);
     }
@@ -38,13 +42,9 @@ const Countries = () => {
   };
   return (
     <div>
-      <h2>Countries are here</h2>
-      <h3>Already Explored country: {cart.length}</h3>
-      <ul>
-        {cart.map((country) => (
-          <li key={country.cca3}>{country.name.common}</li>
-        ))}
-      </ul>
+      <Cart cart={cart}></Cart>
+
+      <h2>All Countries are here</h2>
       <div className="country-container">
         {countries.map((country) => (
           // console.log(country),

@@ -13,7 +13,8 @@ const Country = ({ country, handleAddToList }) => {
   return (
     <div>
       <div className="Country">
-        <img src={flag} alt={`${name.common} flag`} />
+        <img src={flag} alt="" />
+
         <h4>{name.common}</h4>
         <button onClick={handleClick} disabled={isClicked}>
           {isClicked ? "Explored" : "Explore"}
