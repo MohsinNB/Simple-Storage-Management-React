@@ -1,0 +1,11 @@
+.cart-container {
+  border: 0.5px solid rgba(131, 146, 141, 0.268);
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgba(131, 146, 141, 0.268);
+}
+.cart-container img {
+  width: 100px;
+  height: 65px;
+  margin: 10px;
+}

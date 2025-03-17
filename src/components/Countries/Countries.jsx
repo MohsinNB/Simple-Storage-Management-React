@@ -35,9 +35,12 @@ const Countries = () => {
   }, [countries]);
 
   const handleAddToList = (country) => {
-    console.log(country);
-    const newCart = [...cart, country];
-    setCart(newCart);
+    // console.log(country);
+    if (!cart.includes(country)) {
+      const newCart = [...cart, country];
+      setCart(newCart);
+    }
+
     addToLS(country.name.common);
   };
   return (
