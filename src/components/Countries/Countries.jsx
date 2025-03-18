@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Country from "../Country/Country";
 import "./Countries.css";
-import { addToLS, getStoredCart } from "../localStorage";
+import { addToLS, getStoredCart, removefromLs } from "../localStorage";
 import Cart from "../Cart/Cart";
 
 const Countries = () => {
@@ -43,9 +43,14 @@ const Countries = () => {
 
     addToLS(country.name.common);
   };
+  const handleRemoveFromCart = (id) => {
+    const remainingCart = cart.filter((country) => country.name.common !== id);
+    setCart(remainingCart);
+    removefromLs(id);
+  };
   return (
     <div>
-      <Cart cart={cart}></Cart>
+      <Cart cart={cart} handleRemoveFromCart={handleRemoveFromCart}></Cart>
 
       <h2>All Countries are here</h2>
       <div className="country-container">
