@@ -9,8 +9,9 @@ const Cart = ({ cart, handleRemoveFromCart }) => {
       <div className="cart-container">
         {cart.map((country) => (
           <div key={country.name.common}>
-            <img src={country.flag} />
+            <img className="image" src={country.flag} />
             <button
+              className="btn"
               onClick={() => {
                 handleRemoveFromCart(country.name.common);
               }}

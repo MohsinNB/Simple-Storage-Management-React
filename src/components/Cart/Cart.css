@@ -8,4 +8,11 @@
   width: 100px;
   height: 65px;
   margin: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  /* margin-bottom: 40px; */
+  position: relative;
+  bottom: 44px;
 }
